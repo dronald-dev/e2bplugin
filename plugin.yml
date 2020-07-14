@@ -1,0 +1,28 @@
+name: E2BPlugin
+main: ua.dronald.e2bplugin.E2BPlugin
+author: Dronald
+version: 2.6
+description: Plugin for End2Build
+depend: [WorldGuard, Vault]
+commands:
+  prefix:
+    description: Change prefix in chat
+    usage: /prefix <prefix>
+  prefixdelete:
+    description: Delete your prefix
+    usage: /prefixdelete
+  colornick:
+      description: Change your color nick
+      usage: /colornick <color>
+  colornickdelete:
+    description: Delete your color nick
+    usage: /colornickdelete
+  buyflag:
+    description: Buy flag for region
+    usage: /buyflag <region> <flag> <state>
+  setspawn:
+    description: Set spawn
+    usage: /setspawn
+  spawn:
+    description: Spawn
+    usage: /spawn
